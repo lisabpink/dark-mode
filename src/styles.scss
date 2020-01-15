@@ -170,13 +170,14 @@ img {
 
 .navbar {
   align-items: center;
+  background-color: azure;
   border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
-  height: 70px;
+  height: 300px;
   justify-content: space-between;
-  padding: 0 3%;
+  padding: 0 10%;
   width: 100%;
-  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(245, 40, 3, 0.42);
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
 }
@@ -184,29 +185,33 @@ img {
 .dark-mode__toggle {
   background: papayawhip;
   border-radius: 50px;
-  border: 1px solid black;
-  height: 20px;
+  border: 3px solid black;
+  height: 105px;
   position: relative;
-  width: 40px;
+  width: 250px;
 }
 
 .toggle {
+
   background: #f68819;
   border-radius: 50px;
-  height: 18px;
+  height: 100px;
   left: 0;
   position: absolute;
   transition: 0.2s;
-  width: 20px;
+  width: 200px;
 }
 
 .toggled {
-  left: 18px;
+  left: 50px;
 }
 
 .charts {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 .chart__container {
@@ -215,7 +220,7 @@ img {
   flex-direction: column;
   justify-content: center;
   margin: 50px 0 0;
-  width: 100%;
+  width: 50%;
 }
 
 .chart-header {
